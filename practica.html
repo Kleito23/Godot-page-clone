@@ -43,17 +43,17 @@
                 <p style="font-size: 1.8rem; line-height: 1.5; color: white; margin-bottom: 5rem;">The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.</p>
                 <div class="botones">
                     <div class="contenedor__botones">
-                        <a href="#" class="boton">
+                        <a href="#" class="boton a__filter">
                             <div class="boton__latest">Download Latest</div>
                             <div class="boton__version1">4.0.2</div>
                         </a>
-                        <a href="#" class="boton">
+                        <a href="#" class="boton a__filter">
                             <div class="boton__lts">Download LTS</div>
                             <div class="boton__version2">3.5.2</div>
                         </a>
                     </div>
                     <div class="boton2">
-                        <a href="#" class="boton--learn">Learn More</a>
+                        <a href="#" class="boton--learn a__filter">Learn More</a>
                     </div>
                     
                 </div>
@@ -61,42 +61,144 @@
             </div>
         </div>
     </section>
-    <section class="contenedor no-padding">
+    <section class="contenedor no-padding" style="margin-bottom: 12rem;">
         <h2>Latest News</h2>
         <div class="contenedor__news">
+            <a href="#" class="a__filter">
+                <div class="news__principal">
+                    <div class="news__principal--img" style="background-image: url(img/release-candidate-godot-4-0-3-rc-1.jpg); margin-bottom: 2rem;"></div>
+                    <h3 class="title__news no-margin">Release candidate: Godot 4.0.3 RC 1</h3>
+                    <p class="info_news">More improvements come to the stable version of Godot 4 with the 4.0.3 patch release. Here's the first release candidate to test the changes before they go live.</p>
+                </div>
+            </a><!-- .a__filter -->
             
-            <div class="news__principal">
-                <img class="news__principal--img" src="img/release-candidate-godot-4-0-3-rc-1.jpg">
-                <h3 class="title__news">Release candidate: Godot 4.0.3 RC 1</h3>
-                <p class="info_news">More improvements come to the stable version of Godot 4 with the 4.0.3 patch release. Here's the first release candidate to test the changes before they go live.</p>
-            </div>
-        
+            <div class="secondary__container">
+                <a href="#" class="a__filter">
+                    <div class="news__secondary secondary-1";">
+                        <div class="news__principal--img"  style="background-image: url(img/cassette-beasts.webp)"></div>
+                        <div class="news__secondary--info">
+                            <h3 class="title__news no-margin">Godot Showcase - Cassette Beasts</h3>
+                            <p class="info_news">We interviewed Jay and Tom from Bytten Studio about Cassette Beasts.</p>
+                        </div>
+                    </div>
+                </a><!-- .a__filter -->
+                
+            
+    
+                <a href="#" class="a__filter">
+                    <div class="news__secondary secondary-2">
+                        <div class="news__principal--img"  style="background-image: url(img/dev-snapshot-godot-4-1-dev-1.jpg)"></div>
+                        <div class="news__secondary--info">
+                            <h3 class="title__news no-margin">Dev snapshot: Godot 4.1 dev 1</h3>
+                            <p class="info_news">Here be dragons! First development snapshot for the upcoming Godot Engine 4.1 is available to early ...</p>
+                        </div>
+                        
+                    </div>
 
-        
-            <div class="news__secondary secondary-1">
-                <img class="news__principal--img" src="img/cassette-beasts.webp">
-                <h3 class="title__news">Godot Showcase - Cassette Beasts</h3>
-                <p class="info_news">More improvements come to the stable version of Godot 4 with the 4.0.3 patch release. Here's the first release candidate to test the changes before they go live.</p>
+                </a><!-- .a__filter -->
+            
+    
+                <a href="#" class="a__filter">
+                    <div class="news__secondary secondary-3">
+                        <div class="news__principal--img"  style="background-image: url(img/release-management-4-1.jpg)"></div>
+                        <div class="news__secondary--info">
+                            <h3 class="title__news no-margin">Release Management Post Godot 4.0</h3>
+                            <p class="info_news">We outline our plan for future Godot releases and Godot 4.1 specifically, which you can expect at th....</p>
+                        </div>
+                        
+                    </div>
+                </a><!-- .a__filter -->
+            
+    
+            <div class="button--container" style="text-align: end;"><a class="button--news a__filter" href="#">More news</a></div>
             </div>
-        
+            
+            
+        </div>
+    </section>
+    <section>
+        <div class="contenedor no-padding">
+            <h2>A different way to make games</h2>
+            <div class="cards__container">
+                <a href="#" class="a__filter a__transition">
+                    <div class="cards">
+                        <div class="card__img" style="background-image: url(img/innovative.webp);"></div>
+                        <div class="card__info">
+                            <h3 class="card__info--title title__news">Innovate design</h3>
+                            <p class="card__info--text">
+                                Godot's Node and Scene system gives you both power and flexibility
+                                to create anything.
+                            </p>
+                        </div>
+                    </div><!-- .cards -->  
+                </a>
 
-        
-            <div class="news__secondary secondary-2">
-                <img class="news__principal--img" src="img/dev-snapshot-godot-4-1-dev-1.jpg">
-                <h3 class="title__news">Dev snapshot: Godot 4.1 dev 1</h3>
-                <p class="info_news">More improvements come to the stable version of Godot 4 with the 4.0.3 patch release. Here's the first release candidate to test the changes before they go live.</p>
-            </div>
-        
+                <a href="#" class="a__filter a__transition">
+                    <div class="cards">
+                        <div class="card__img" style="background-image: url(img/language.webp);"></div>
+                        <div class="card__info">
+                            <h3 class="card__info--title title__news">Use the right language for the job</h3>
+                            <p class="card__info--text">
+                                Keep your code modular with an object-oriented API using Godot's own
+                                GDScript, C#, C++, or bring your own using GDExtension.
+                            </p>
+                        </div>
+                    </div><!-- .cards -->
+                </a>
+    
+                <a href="#" class="a__filter a__transition">
+                    <div class="cards">
+                        <div class="card__img" style="background-image: url(img/2d.webp);"></div>
+                        <div class="card__info">
+                            <h3 class="card__info--title title__news">Dedicated 2D engine</h3>
+                            <p class="card__info--text">
+                                Make crisp and performant 2D games with Godot's dedicated 2D
+                                rendering engine with real 2D pixel coordinates and 2D nodes.
+                            </p>
+                        </div>
+                    </div><!-- .cards -->
+                </a>
+    
+                <a href="#" class="a__filter a__transition">
+                    <div class="cards">
+                        <div class="card__img" style="background-image: url(img/3d.webp);"></div>
+                        <div class="card__info">
+                            <h3 class="card__info--title title__news">Simple and powerful 3D</h3>
+                            <p class="card__info--text">
+                                Godot's 3D nodes give you everything you need to build, animate,
+                                and render your 3D worlds and characters.
+                            </p>
+                        </div>
+                    </div><!-- .cards -->
+                </a>
 
-        
-            <div class="news__secondary secondary-3">
-                <img class="news__principal--img" src="img/release-management-4-1.jpg">
-                <h3 class="title__news">Release Management Post Godot 4.0</h3>
-                <p class="info_news">More improvements come to the stable version of Godot 4 with the 4.0.3 patch release. Here's the first release candidate to test the changes before they go live.</p>
-            </div>
-        
+                <a href="#" class="a__filter a__transition">
+                    <div class="cards">
+                        <div class="card__img" style="background-image: url(img/cross-platform.svg);"></div>
+                        <div class="card__info">
+                            <h3 class="card__info--title title__news">Release on all platforms</h3>
+                            <p class="card__info--text">
+                                Deploy your game on desktop, mobile, and the web in seconds. Godot
+                                even supports consoles through third party publishers.
+                            </p>
+                        </div>
+                    </div><!-- .cards -->
+                </a>
 
-        <div class="button--news"></div>
+                <a href="#" class="a__filter a__transition">
+                    <div class="cards">
+                        <div class="card__img" style="background-image: url(img/oss.svg);"></div>
+                        <div class="card__info">
+                            <h3 class="card__info--title title__news">Open Source</h3>
+                            <p class="card__info--text">
+                                Truly open development: anyone who contributes to Godot benefits
+                                equally from others’ contributions.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- .cards -->
+                
+                </a>
             
         </div>
     </section>
